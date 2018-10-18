@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>JavaScript Easter Egg Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="calculator">
+      <div class="display-screen">
+        <div class="glass">
+          <span id="full-operation"> 0</span>
+          <span id="output">0</span>
+        </div>
+        <!-- END glass -->
+      </div>
+      <!-- END display-screen -->
+
+      <div class="calculator-btns">
+        <button type="button" class="btn" data-type="function" id="easterEgg"><i class="material-icons">bubble_chart</i></button>
+        <button type="button" class="btn" data-type="function" id="history"><i class="material-icons">history</i></button>
+
+        <button type="button" class="btn" data-type="function" id="clearAll">C</button>
+        <button type="button" class="btn" data-type="function" id="clearLastEntry">CE</button>
+        <button type="button" class="btn" data-type="function" id="backSpace"><i class="material-icons">backspace</i></button>
+        <button type="button" class="btn" data-type="operator" data-value=" / " id="divide">&divide;</button>
+
+        <button type="button" class="btn" data-type="number" data-value="7" id="7">7</button>
+        <button type="button" class="btn" data-type="number" data-value="8" id="8">8</button>
+        <button type="button" class="btn" data-type="number" data-value="9" id="9">9</button>
+        <button type="button" class="btn" data-type="operator" data-value=" * " id="multiply">&times;</button>
+
+        <button type="button" class="btn" data-type="number" data-value="4" id="4">4</button>
+        <button type="button" class="btn" data-type="number" data-value="5" id="5">5</button>
+        <button type="button" class="btn" data-type="number" data-value="6" id="6">6</button>
+        <button type="button" class="btn" data-type="operator" data-value=" - " id="subtract">&minus;</button>
+
+        <button type="button" class="btn" data-type="number" data-value="1" id="1">1</button>
+        <button type="button" class="btn" data-type="number" data-value="2" id="2">2</button>
+        <button type="button" class="btn" data-type="number" data-value="3" id="3">3</button>
+        <button type="button" class="btn" data-type="operator" data-value=" + " id="add">&plus;</button>
+
+        <button type="button" class="btn" data-type="operator" data-value=" - " id="negative">&plusmn;</button>
+        <button type="button" class="btn" data-type="number" data-value="0" id="0">0</button>
+        <button type="button" class="btn" data-type="operator" data-value="." id="decimal">.</button>
+        <button type="button" class="btn" data-type="function" id="equal">&equals;</button>
+      </div>
+      <!-- END calculator-btns -->
+
+    </div>
+    <!-- END calculator -->
+
+  </div>
+  <!-- END container -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
